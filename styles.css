@@ -3,38 +3,45 @@ body {
   margin: 0;
 }
 
+div#design {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 3px solid black;
+}
+
+img#wall {
+  display: block;
+  height: auto;
+  width: auto;
+}
+
 div#card-front {
   background-image: url("images/bg-card-front.png");
   float: left;
   width: 30%;
   border-radius: 25px;
   color: white;
+  margin-top: 5%;
+  margin-left: -25%;
+  border: 3px solid black;
+
 }
 
-div#card-back {
-  background-image: url("images/bg-card-back.png");
-  /* float: left; */
-  width: 30%;
-  /* height: 300px; */
-  border-radius: 25px;
-  color: white;
+div#card-details {
+  margin-left: 5%;
 }
 
-div#design {
-  width: 20%;
-  float: left;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 div#form-div {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  width: 50%;
+  width: 45%;
   float: left;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-top: 10%;
+  border: 3px solid black;
 }
 
 input[type=text], select {
@@ -47,9 +54,9 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+button#confirm {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: purple;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -58,28 +65,30 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+button#confirm:hover {
+  background-color: red;
 }
 
 
 input#exp-mm, #exp-yy {
-  width: 30%;
+  width: 40%;
   display: inline-block;
   float: left;
   margin: 10px;
 }
 
+div#exp {
+  float: left;
+  width: 35%;
+}
 
 
 input#cvc {
   width: 50%;
 }
 
-div#exp {
-  float: left;
-}
-
 div#cvc {
+  display: inline-block;
   float: left;
+  margin-left: 10%;
 }
