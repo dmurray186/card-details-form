@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div id="design">
+<img src="images/bg-main-desktop.png"/>
+</div>
+
+<div id="card-front">
+<h1 id="cardnumber">0000 0000 0000 0000</h1>
+<h2 id="name">John Doe</h2>
+<h2 id="expiry">00 00</h2>
+</div>
+
+<div id="card-back">
+<h2 id="cvc">000</h2>
+</div>
+
+
+<div id="form-div">
+  <form action="">
+    <label for="name">CARDHOLDER NAME</label><br>
+    <input type="text" id="name" name="name" value="Your Full Name"><br>
+    <label for="cnumber">CARD NUMBER</label><br>
+    <input type="text" id="cnumber" name="cnumber" value="0000 0000 0000 0000"><br><br>
+<div id="exp">
+    <label for="exp" label id="lexp">EXP DATE (MM/YY)</label><br>
+    <input type="text" id="exp-mm" name="exp" value="MM">
+    <input type="text" id="exp-yy" name="exp" value="YY"><br>
+
+</div>
+<div id="cvc">
+    <label for="cvc" id="lcvc">CVC</label><br>
+    <input type="text" id="cvc" name="cvc" value="0000"><br>
+</div>
+    <input type="submit" value="Confirm">
+  </form>
+</div>
+
+  <!-- Completed state start -->
+
+</body>
+</html>
